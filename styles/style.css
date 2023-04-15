@@ -41,30 +41,31 @@
     line-height: 2em;
 }
 
-.duplo {
-    margin-top: 10vh;
-    margin-bottom: 10vh;
+.secao p {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
 }
 
 #img01 {
+    background-color: rgb(73, 73, 73);
     background-image: url('../images/background001.jpg');
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
     background-repeat: no-repeat;
     padding-top: 10vw;
-    box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.273);
+    box-shadow: inset 0px 7px 7px rgba(0, 0, 0, 0.273);
 }
 
 #img01 p {
-    display: block;
+    display: inline-block;
     padding: 10px;
-    width: 50%;
     background-color: rgba(0, 0, 0, 0.656);
     color: white;
 }
 
 #img02 {
+    background-color: rgb(73, 73, 73);
     background-image: url('../images/background002.jpg');
     background-position: right bottom;
     background-size: cover;
@@ -75,9 +76,8 @@
 }
 
 #img02 p {
-    display: block;
+    display: inline-block;
     padding: 10px;
-    width: 50%;
     background-color: rgba(0, 0, 0, 0.656);
     color: white;
 }
