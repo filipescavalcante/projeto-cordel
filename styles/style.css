@@ -47,7 +47,7 @@
 }
 
 #img01 {
-    background-image: url(../images/background001.jpg);
+    background-image: url('../images/background001.jpg');
     background-position: right center;
     background-size: cover;
     background-attachment: fixed;
@@ -65,7 +65,7 @@
 }
 
 #img02 {
-    background-image: url(../images/background002.jpg);
+    background-image: url('../images/background002.jpg');
     background-position: right bottom;
     background-size: cover;
     background-attachment: fixed;
